@@ -1,0 +1,31 @@
+[submodule "ceph-object-corpus"]
+	path = ceph-object-corpus
+	url = https://github.com/ceph/ceph-object-corpus.git
+[submodule "src/civetweb"]
+	path = src/civetweb
+	url = https://github.com/ceph/civetweb
+[submodule "src/erasure-code/jerasure/jerasure"]
+	path = src/erasure-code/jerasure/jerasure
+	url = https://github.com/ceph/jerasure.git
+	branch = v2-ceph
+[submodule "src/erasure-code/jerasure/gf-complete"]
+	path = src/erasure-code/jerasure/gf-complete
+	url = https://github.com/ceph/gf-complete.git
+	branch = v2-ceph
+[submodule "src/rocksdb"]
+	path = src/rocksdb
+	url = https://github.com/ceph/rocksdb
+	ignore = dirty
+[submodule "ceph-erasure-code-corpus"]
+	path = ceph-erasure-code-corpus
+	url = https://github.com/ceph/ceph-erasure-code-corpus.git
+[submodule "src/gmock"]
+	path = src/gmock
+	url = https://github.com/ceph/gmock.git
+        branch = ceph-release-1.7.0
+[submodule "src/spdk"]
+	path = src/spdk
+	url = https://github.com/ceph/spdk.git
+[submodule "src/xxHash"]
+	path = src/xxHash
+	url = https://github.com/ceph/xxHash.git
